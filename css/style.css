@@ -1,4 +1,4 @@
-@media screen and (max-width 768px) {
+@media screen and (max-width ) {
     div h1 p{
         width: 100%;
     }
@@ -48,19 +48,68 @@ font-size: 16px;
 #curiosidades{
     background: url(../img/fundo.png);
 }
-#personalidades{
+.personalidades{
+    background-color: black;
     text-align: center;
-    padding: 3%;
+    padding: 50px;
+    color: white;
+    font-size: 25px;
 }
-.rick{
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 700;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
+.fim{
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-size: 25px;
 }
-.rick-cor{
-    background: url(../img/fundo.png);
-    box-shadow: #006431;
+#p1{
+    display: none;
 }
+#p2{
+    display: none;
+}
+#p3{
+    display: none;}
+#p5{
+        display: none;
+    }
+#p4{
+        display: none;}
+#p1 h2{
+    color: #8FFF8F;
+}
+#p2 h2{
+    color: #FFEA00;
+}
+#p3 h2{
+    color: #FF62B0;
+}
+#p4 h2{
+    color: #FF0E06;
+}
+#p5 h2{
+    color: #1fa1c4;
+}
+.mascara{
+    font-size: 65px;
+    background-image: url(../img/hack.jpg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+.rodape{
+    height: 20px;
+    background-color: #303030;
+    color: #B3B3B3;
+    position: relative;
+    text-align: center;
+    font-size: 12px ;
+    
+    
+}
+.rodape p{
+    margin-left: 50px;
+   
+}    
+
+
+
